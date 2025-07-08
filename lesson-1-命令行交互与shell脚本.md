@@ -434,6 +434,7 @@ bash ./script.sh
 此处有必要说明的是，shell脚本其实是一种解释型的脚本语言，因此也存在变量、条件、循环、函数、输入输出等概念。目前我们项目中暂时还没有用到，暂时不提，有需求可以看一下[Shell 教程 | 菜鸟教程](https://www.runoob.com/linux/linux-shell.html)
 
 练习题目（将每一步使用的命令或脚本内容和结果截图，最后交给我一份pdf）：
+- 第一题
 1. 创建一个test文件夹，进入该文件夹。
 2. 在该文件夹里创建一个脚本script1.sh，其效果为：将该文件夹加入PATH环境变量，设置TEST1环境变量为ps，（你需要使用env命令展示你的环境变量是否被正确修改）。
 3. 在该文件里创建一个脚本script2.sh，你可以选择任何一种方式执行这个script2.sh。你需要想办法获取到script1.sh里的环境变量，并把TEST1变量的值输出到a.txt里。
@@ -442,7 +443,12 @@ bash ./script.sh
 6. 向b.txt中写入后台运行的sleep指令
 7. 获取a.txt中的值并将其写入b.txt
 8. 想办法执行b.txt
-
-
+- 第二题
+1. 将你的所有的PATH环境变量逐条输出到path1.txt
+2. 将path1.txt里的在/bin路径里的值按照字典序排序并截取前5个输出到path2.txt
+3. 删除这两个题里创建的所有文件（不可以使用图形化界面）（包括test文件夹）
+- extra（仅靠这节课的内容是不够的，这将是未来若干次课共有的作业）
+1. 安装一个新的终端模拟器（wezterm、kitty等）
+2. 安装一个新的shell（zsh、fish等）
 # 附录
 [Linux 命令大全 | 菜鸟教程](https://www.runoob.com/linux/linux-command-manual.html)
