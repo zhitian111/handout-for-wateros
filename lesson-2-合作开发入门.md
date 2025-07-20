@@ -117,9 +117,9 @@ git log
 ```
 即可，而如果你想要回到某个提交，就需要使用
 ```bash
-git checkout <分支描述符>
+git checkout <提交描述符>
 # 或者
-git reset <分支描述符>
+git reset <提交描述符>
 ```
 命令。这里的分支描述符可以是你在查看git log的时候看到的那个字符串（SHA-1哈希值），同时也可以是一些其他的东西，暂且不提。
 ##### git checkout
